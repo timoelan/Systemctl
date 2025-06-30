@@ -1,0 +1,8 @@
+[Unit]
+Description=Motivationsspruch für Timo
+
+[Service]
+Type=simple
+ExecStart=/home/<DEINUSERNAME>/motivation.sh
+Restart=on-failure
+RestartSec=10
